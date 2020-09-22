@@ -26,15 +26,15 @@ svg {
   cursor: pointer;
 }
 
-.kick-pad {
+.kick-pad.active {
   background: teal;
 }
 
-.snare-pad {
+.snare-pad.active {
   background: coral;
 }
 
-.hihat-pad {
+.hihat-pad.active {
   background: rebeccapurple;
 }
 
@@ -84,15 +84,15 @@ svg {
   transition: all 0.5s ease;
 }
 
-.kick-pad.active {
+.kick-pad {
   background: rgb(2, 211, 211);
 }
 
-.snare-pad.active {
+.snare-pad {
   background: rgb(255, 154, 118);
 }
 
-.hihat-pad.active {
+.hihat-pad {
   background: rgb(157, 64, 250);
 }
 
